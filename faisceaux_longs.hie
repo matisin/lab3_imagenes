@@ -1,0 +1,527 @@
+# tree 1.0
+
+*BEGIN TREE hierarchy
+graph_syntax RoiArg
+
+*BEGIN TREE fold_name
+name ALL
+
+*BEGIN TREE fold_name
+name AR
+
+*BEGIN TREE fold_name
+name  AR_LEFT
+color 233 18 0
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_ANT_LEFT
+color 65 149 45
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_POST_LEFT
+color 226 226 0
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_RIGHT
+color 233 18 0
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_ANT_RIGHT
+color 65 149 45
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_POST_RIGHT
+color 226 226 0
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name CST
+
+*BEGIN TREE fold_name
+name  CST_LEFT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_RIGHT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_long_LEFT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_long_RIGHT
+color 228 122 0
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name THAL
+
+*BEGIN TREE fold_name
+name  THAL_FRONT_LEFT
+color 186 185 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_MOT_LEFT
+color 45 151 131
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_PAR_LEFT
+color 237 172 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_TEMP_LEFT
+color 217 156 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_OCC_LEFT
+color 143 201 199
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_FRONT_RIGHT
+color 186 185 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_MOT_RIGHT
+color 45 151 131
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_PAR_RIGHT
+color 237 172 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_TEMP_RIGHT
+color 217 156 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_OCC_RIGHT
+color 143 201 199
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name IFO
+
+*BEGIN TREE fold_name
+name  IFO_LEFT
+color 226 108 232
+
+*END
+
+*BEGIN TREE fold_name
+name  IFO_RIGHT
+color 226 108 232
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name IL
+
+*BEGIN TREE fold_name
+name  IL_LEFT
+color 103 51 90
+
+*END
+
+*BEGIN TREE fold_name
+name  IL_RIGHT
+color 103 51 90
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name UN
+
+*BEGIN TREE fold_name
+name  UN_LEFT
+color 76 255 255
+
+*END
+
+*BEGIN TREE fold_name
+name  UN_RIGHT
+color 76 255 255
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name CG
+
+*BEGIN TREE fold_name
+name  CG2_LEFT
+color 145 235 9
+
+*END
+
+*BEGIN TREE fold_name
+name  CG_LEFT
+color 172 70 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CG3_LEFT
+color 27 108 183
+
+*END
+
+*BEGIN TREE fold_name
+name  CG2_RIGHT
+color 145 235 9
+
+*END
+
+*BEGIN TREE fold_name
+name  CG_RIGHT
+color 172 70 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CG3_RIGHT
+color 27 108 183
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name FORNIX
+
+*BEGIN TREE fold_name
+name  FORNIX_LEFT
+color 0 0 0
+
+*END
+
+*BEGIN TREE fold_name
+name  FORNIX_RIGHT
+color 0 0 0
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name CC
+
+*BEGIN TREE fold_name
+name  CC_ROSTRUM
+color 204 0 97
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_SPLENIUM
+color 75 39 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_BODY
+color 0 67 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_GENU
+color 36 0 130
+
+*END
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name LEFT
+
+*BEGIN TREE fold_name
+name  AR_LEFT
+color 233 18 0
+
+*END
+
+*BEGIN TREE fold_name
+name  IFO_LEFT
+color 226 108 232
+
+*END
+
+*BEGIN TREE fold_name
+name  IL_LEFT
+color 103 51 90
+
+*END
+
+*BEGIN TREE fold_name
+name  UN_LEFT
+color 76 255 255
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_LEFT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_long_LEFT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CG2_LEFT
+color 145 235 9
+
+*END
+
+*BEGIN TREE fold_name
+name  CG_LEFT
+color 172 70 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CG3_LEFT
+color 27 108 183
+
+*END
+
+*BEGIN TREE fold_name
+name  FORNIX_LEFT
+color 0 0 0
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_ANT_LEFT
+color 65 149 45
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_POST_LEFT
+color 226 226 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_FRONT_LEFT
+color 186 185 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_MOT_LEFT
+color 45 151 131
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_PAR_LEFT
+color 237 162 147
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_TEMP_LEFT
+color 217 156 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_OCC_LEFT
+color 143 201 199
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name RIGHT
+
+*BEGIN TREE fold_name
+name  AR_RIGHT
+color 233 18 0
+
+*END
+
+*BEGIN TREE fold_name
+name  IFO_RIGHT
+color 226 108 232
+
+*END
+
+*BEGIN TREE fold_name
+name  IL_RIGHT
+color 103 51 90
+
+*END
+
+*BEGIN TREE fold_name
+name  UN_RIGHT
+color 76 255 255
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_RIGHT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CST_long_RIGHT
+color 228 122 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CG2_RIGHT
+color 145 235 9
+
+*END
+
+*BEGIN TREE fold_name
+name  CG_RIGHT
+color 172 70 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CG3_RIGHT
+color 27 108 183
+
+*END
+
+*BEGIN TREE fold_name
+name  FORNIX_RIGHT
+color 0 0 0
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_ANT_RIGHT
+color 65 149 45
+
+*END
+
+*BEGIN TREE fold_name
+name  AR_POST_RIGHT
+color 226 226 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_FRONT_RIGHT
+color 186 185 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_MOT_RIGHT
+color 45 151 131
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_PAR_RIGHT
+color 237 172 167
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_TEMP_RIGHT
+color 217 156 0
+
+*END
+
+*BEGIN TREE fold_name
+name  THAL_OCC_RIGHT
+color 143 201 199
+
+*END
+
+*END
+
+*BEGIN TREE fold_name
+name CC
+
+*BEGIN TREE fold_name
+name  CC_ROSTRUM
+color 204 0 97
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_SPLENIUM
+color 75 39 32
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_BODY
+color 0 67 0
+
+*END
+
+*BEGIN TREE fold_name
+name  CC_GENU
+color 36 0 130
+
+*END
+
+*END
+
+*END
