@@ -1,7 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3247237-0028-453c-81de-8af1e282d594" name="Default" comment="" />
+    <list default="true" id="d3247237-0028-453c-81de-8af1e282d594" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_ANT_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_POST_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_POST_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_POST_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_AR_POST_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_BODY_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_BODY_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_BODY_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_BODY_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_GENU_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_GENU_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_GENU_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_GENU_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_ROSTRUM_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_ROSTRUM_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_ROSTRUM_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CC_ROSTRUM_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG2_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG3_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CG_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_CST_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IFO_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_IL_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_FRONT_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_MOT_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_OCC_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_OCC_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_OCC_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_OCC_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_PAR_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_LEFT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_LEFT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_LEFT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_LEFT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_THAL_TEMP_RIGHT_MNI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_UN_RIGHT_MNI.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_UN_RIGHT_MNI.bundles.boundles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_UN_RIGHT_MNI.bundles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_faisceaux_MNI/data_UN_RIGHT_MNI.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_write_bundles.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_write_bundles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentacion_fasciculos.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentacion_fasciculos.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +130,20 @@
       <file leaf-file-name="segmentacion_fasciculos.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/segmentacion_fasciculos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="-1233">
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/apscheduler/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="380" selection-start-line="380" selection-end-line="380" />
             </state>
           </provider>
         </entry>
@@ -44,7 +169,8 @@
       <file leaf-file-name="read_write_bundles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read_write_bundles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="840">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -61,6 +187,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>whole_brain</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,6 +209,7 @@
     <option name="width" value="960" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -91,7 +226,7 @@
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="atlas_faisceaux_MNI" type="462c0819:PsiDirectoryNode" />
+              <item name="saved_faisceaux_MNI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -103,6 +238,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,12 +299,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645833" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.500528" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50158733" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39894179" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -185,13 +323,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/segmentacion_fasciculos.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="14" />
+          <line>99</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/segmentacion_fasciculos.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="16" />
+          <line>145</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -201,7 +339,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -212,15 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/read_write_bundles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -228,12 +357,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/read_write_bundles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/apscheduler/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/segmentacion_fasciculos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="-1233">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

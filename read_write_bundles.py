@@ -22,7 +22,7 @@ def read_bundle( infile ):
 
 def write_bundle( outfile, points ):
   #write bundles file
-  f = open( outfile + 'data','wb' )
+  f = open( outfile + '.data','wb' )
   ncount = len( points )
   for i in xrange( ncount ):
     f.write(N.array( [ len( points[ i ] ) ], N.int32 ).tostring() )
@@ -32,7 +32,7 @@ def write_bundle( outfile, points ):
 
   # write minf file
   minf = """attributes = {\n    'binary' : 1,\n    'bundles' : %s,\n    'byte_order' : 'DCBA',\n    'curves_count' : %s,\n    'data_file_name' : '*.bundlesdata',\n    'format' : 'bundles_1.0',\n    'space_dimension' : 3\n  }"""
-  open( outfile, 'w' ).write(minf % ( [ 'points', 0 ], ncount ) )
+  open( outfile+'.boundles', 'w' ).write(minf % ( [ 'points', 0 ], ncount ) )
 
 def getBundleNames( bundlefile ):
   #get center names from bundle file
@@ -142,4 +142,3 @@ def write_bundle_severalbundles( outfile, points, bundles = [] ):
                       + str( bundles_list[ ind + 3 ] ) + ' ]'
 
   open( outfile, 'w' ).write( minf % ( bundlesstr, ncount ) )
-
