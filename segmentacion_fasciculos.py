@@ -1,13 +1,11 @@
-import pickle
 import threading
 import time
 import numpy
 
-
-
 import matplotlib.pyplot as plt
-
 from matplotlib import colors as mcolors
+from mpl_toolkits import mplot3d
+
 from read_write_bundles import *
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -19,10 +17,10 @@ def chunks(l, n):
         yield l[i:i+n]
 
 atlas_path = 'atlas_faisceaux_MNI'
-
 brain = 'whole_brain_MNI_100k_21p'
 brain_file = brain + '.bundles'
 save_path = brain + '_faisceaux_MNI'
+
 if not os.path.exists(save_path):
     os.makedirs(save_path)
 
@@ -38,26 +36,26 @@ for root, dirs, files in os.walk(atlas_path):
             path = os.path.join(atlas_path, filename)
             fasciculo = read_bundle(path)
             fasciculos_atlas.append(fasciculo)
-            region = filename.replace('bunldes','')
-            new_filename = brain + '_' + region
+            region = filename.replace('.bundles','')
+            region = region.replace('atlas','')
+            new_filename = brain + region
             filenames.append(new_filename)
 
 #El cerebro se reduce a un tamano de 100000 fibras
 whole_brain = read_bundle(brain_file)
-part_brain = whole_brain[:1000]
 
 #Se define una cantidad de hilos para hacer un procesamiento en paralelo, el cerebro se divide por la cantidad de hilos
 # y se guardan estas divisiones en part_brain_chunks
 n_threads = 10
-chunk = 1000 / n_threads
-part_brain_chunks = list(chunks(part_brain, int(chunk)))
+chunk = len(whole_brain) / n_threads
+whole_brain_chunks = list(chunks(whole_brain, int(chunk)))
 
 #segmentation es modificado en la funcion sementacion_fibras, aqui cada hilo asocia el indice de una fibra en part_brain_chunks
 # con el nombre del archivo de fasciculo si la fibra se encuentra dentro del ubral en alguna fibra de algun fasciculo
 segmentation = dict()
 def segmentacion_fibras(id):
     umbral = 10
-    brain_chunk = part_brain_chunks[id]
+    brain_chunk = whole_brain_chunks[id]
     for index_brain, fibra_datos in enumerate(brain_chunk):
         brain_data_exit = False
         for index_fasciculo,fasciculo_atlas in enumerate(fasciculos_atlas):
@@ -130,34 +128,62 @@ for thread in threads:
     thread.join()
 sched.shutdown()
 
-#se guardan los datos con write_bundle
+filenames_count = dict(zip(filenames, [0] * len(filenames)))
+#se guardan los datos con write_bundle y se cuentan las fibras
 for data_and_file in segmentation.values():
     filename = data_and_file[1]
+    count = filenames_count[filename] + 1
+    filenames_count[filename] = count
     outfile = save_path + '/' + filename
     fibra_datos = data_and_file[0]
     write_bundle(outfile, fibra_datos)
 
-#colores para el dibujo de fibras
+#colores para el dibujo de fibras, mapean algunos colores con los fasciculos en un diccionario
 colors = dict(mcolors.BASE_COLORS, **mcolors.CSS4_COLORS)
 by_hsv = sorted((tuple(mcolors.rgb_to_hsv(mcolors.to_rgba(color)[:3])), name)
                 for name, color in colors.items())
 sorted_names = [name for hsv, name in by_hsv]
+colors_fasciculo = dict(zip(filenames, sorted_names))
 
+#grafico para plotear el cerebro
 fig = plt.figure(figsize=(30, 20))
 ax = plt.axes(projection='3d')
 
-for fibra in part_brain:
+#se plotean las fibras del pedazo del cerebro como color gris
+xline,yline,zline = [], [], []
+for fibra in whole_brain:
+    x, y, z = [], [], []
     for point in fibra:
-        ax.plot3D(point[0], point[1], point[2], 'gray')
+        x.append(point[0])
+        y.append(point[1])
+        z.append(point[2])
+    ax.plot3D(x, y, z, 'gray')
 
-ra = 0
-
-
-#se guardan los datos con write_bundle
+#se plotean las fibras segmentadas por fasciculo del atlas
 for data_and_file in segmentation.values():
     fibra_datos = data_and_file[0]
+    filename = data_and_file[1]
+    x, y, z = [], [], []
     for point in fibra_datos:
-        ax.plot3D(point[0], point[1], point[2], 'blue')
+        x.append(point[0])
+        y.append(point[1])
+        z.append(point[2])
+    ax.plot3D(x, y, z, colors_fasciculo[filename])
 
-plt.title('Brain segmentation')
+#grafico mostrando la cantidad de fibras por fasciculo
+graph = plt.figure()
+ax = plt.subplot(111)
+
+#se plotean la cantidad de fibras por fasciculo como grafico de barras con su respectivo color
+colorlist = []
+for label in list(filenames_count.keys()):
+   colorlist.append(colors_fasciculo[label])
+labels = list(filenames_count.keys())
+for i in range(0, len(labels)):
+    labels[i] = labels[i].replace(brain+'_','')
+    labels[i] = labels[i].replace('_MNI','')
+ax.bar(list(filenames_count.keys()), list(filenames_count.values()), linewidth=100, color=colorlist)
+ax.set_xticklabels(labels, rotation=90)
+plt.tight_layout()
+
 plt.show()
